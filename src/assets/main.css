@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  @apply text-white;
+}
+h1,
+h2,
+h3 {
+  @apply text-green-300;
+}
+a {
+  @apply text-green-300 underline hover:text-green-200;
+}
