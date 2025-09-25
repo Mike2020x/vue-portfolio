@@ -1,5 +1,46 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Vue Portfolio
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Este proyecto es un portafolio personal construido con un stack moderno y responsivo.
+
+## Stack Tecnológico
+
+- **Vue 3**: Framework principal para la interfaz de usuario
+- **Vite**: Herramienta de build y desarrollo rápido
+- **Quasar**: Componentes UI y layout responsivo (QLayout, QDrawer, QHeader, QFooter)
+- **Tailwind CSS**: Utilidades CSS para estilos modernos y responsivos
+- **Pinia**: Manejo de estado global
+
+## Instalación
+
+1. Clona el repositorio:
+	```sh
+	git clone https://github.com/Mike2020x/vue-portfolio.git
+	cd vue-portfolio
+	```
+
+2. Instala las dependencias:
+	```sh
+	npm install
+	```
+
+## Ejecución en desarrollo
+
+```sh
+npm run dev
+```
+
+## Build para producción
+
+```sh
+npm run build
+```
+
+Esto generará los archivos listos para producción en la carpeta `dist/`.
+
+## Notas
+- Puedes personalizar el contenido y los estilos editando los archivos en la carpeta `src/`.
+- El diseño es completamente responsivo y moderno, usando Tailwind y Quasar.
+
+---
+
